@@ -9,7 +9,7 @@ app = typer.Typer(no_args_is_help=True)
 
 excluded_attributes = {
     "symbols": ["excluded_attributes", "app"],
-    "imports": ["typer", "subprocess", "tmp_dir"],
+    "imports": ["typer", "subprocess", "tmp_dir", "app_image_dir", "create_dir_if_not_exists"],
 }
 
 @app.command()
